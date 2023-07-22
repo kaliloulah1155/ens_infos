@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { Modal, Form, Button } from 'react-bootstrap';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import './passwordInputLogin.css';
+
 
 
 export default function LoginModal({ show, handleClose }) {
@@ -35,7 +35,7 @@ export default function LoginModal({ show, handleClose }) {
                           type={showPassword ? 'text' : 'password'}
                           placeholder="Saisissez votre mot de passe"
                       />
-                      <div className="password-toggle-icon-container" onClick={togglePasswordVisibility}>
+                      <div className="password-login-toggle-icon-container" onClick={togglePasswordVisibility}>
                           {showPassword ? <FaEyeSlash className="password-toggle-icon" /> : <FaEye className="password-toggle-icon" />}
                       </div>
                   </Form.Group>

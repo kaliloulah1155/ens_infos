@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { Navbar, Nav, Container, Row, Col, Form, Button, Modal, Image } from 'react-bootstrap';
 import LoginModal from '../pages/front/auth/LoginModal';
 import RegisterModal from '../pages/front/auth/RegisterModal';
+import '../pages/front/auth/passwordInputStyles.css'
+
  
 export default function NavBar() {
     // State pour afficher le modal de connexion

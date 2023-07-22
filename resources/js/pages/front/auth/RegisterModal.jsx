@@ -1,7 +1,6 @@
 import React,{useState} from 'react';
 import { Modal, Form, Button } from 'react-bootstrap';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import './passwordInputRegister.css';
 export default function RegisterModal({ show, handleClose }) {
 
     const [showPassword, setShowPassword] = useState(false);
