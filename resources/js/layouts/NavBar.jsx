@@ -33,8 +33,7 @@ export default function NavBar() {
  
   return (
     <>
-
-          <Navbar bg="dark" variant="dark">
+          <Navbar bg="dark" variant="dark" expand="md">
               <Container fluid>
                   <Link to="/" className="navbar-brand">
                       <Navbar.Brand className="mr-auto">
